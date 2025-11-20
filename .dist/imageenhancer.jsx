@@ -13,7 +13,7 @@ const App = () => {
 
   const fileInputRef = useRef(null);
 
-  const apiKey = ""; // API Key provided by execution environment
+  const apiKey = "AIzaSyB7ATx_v33wyVZ60EjDGQHM8o6XZO6royM"; // API Key provided by execution environment
 
   const addLog = (message) => {
     setLogs(prev => [...prev, { time: new Date().toLocaleTimeString(), message }]);
